@@ -1,0 +1,26 @@
+# .gitignore
+
+# 個人情報を含む可能性のあるファイル
+# 必要に応じてコメントアウトしてください
+
+# バックアップファイル
+*.bak
+*.backup
+*~
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# ログファイル
+*.log

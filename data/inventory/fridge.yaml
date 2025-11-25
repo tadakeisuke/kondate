@@ -1,0 +1,93 @@
+# 冷蔵庫の在庫管理
+# 最終更新: 2025-11-25
+
+vegetables:
+  - name: にんじん
+    quantity: 2
+    unit: 本
+    purchase_date: 2025-11-23
+    expiry_date: 2025-12-07
+    location: 野菜室
+    
+  - name: キャベツ
+    quantity: 0.5
+    unit: 玉
+    purchase_date: 2025-11-20
+    expiry_date: 2025-11-27
+    location: 野菜室
+    
+  - name: 玉ねぎ
+    quantity: 3
+    unit: 個
+    purchase_date: 2025-11-22
+    expiry_date: 2025-12-22
+    location: 野菜室
+
+proteins:
+  - name: 豚バラ肉
+    quantity: 300
+    unit: g
+    purchase_date: 2025-11-24
+    expiry_date: 2025-11-26
+    location: チルド室
+    
+  - name: 鶏もも肉
+    quantity: 250
+    unit: g
+    purchase_date: 2025-11-23
+    expiry_date: 2025-11-25
+    location: チルド室
+    
+  - name: 卵
+    quantity: 8
+    unit: 個
+    purchase_date: 2025-11-20
+    expiry_date: 2025-12-05
+    location: 卵ケース
+
+dairy:
+  - name: 牛乳
+    quantity: 1
+    unit: L
+    purchase_date: 2025-11-23
+    expiry_date: 2025-11-28
+    location: ドアポケット
+    
+  - name: ヨーグルト
+    quantity: 400
+    unit: g
+    purchase_date: 2025-11-22
+    expiry_date: 2025-11-29
+    location: 上段
+
+condiments:
+  - name: 味噌
+    quantity: 500
+    unit: g
+    status: 充分
+    location: 冷蔵室
+    
+  - name: 醤油
+    quantity: 800
+    unit: ml
+    status: 充分
+    location: ドアポケット
+    
+  - name: マヨネーズ
+    quantity: 200
+    unit: g
+    status: 少ない
+    location: ドアポケット
+
+frozen:
+  - name: 冷凍うどん
+    quantity: 3
+    unit: 食
+    purchase_date: 2025-11-15
+    expiry_date: 2026-05-15
+    
+  - name: ミックスベジタブル
+    quantity: 300
+    unit: g
+    purchase_date: 2025-11-10
+    expiry_date: 2026-04-10

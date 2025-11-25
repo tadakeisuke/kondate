@@ -1,0 +1,101 @@
+# 2025年11月の献立履歴
+
+meals:
+  - date: 2025-11-24
+    day_of_week: 日曜日
+    dinner:
+      main: 豚の生姜焼き
+      side:
+        - キャベツの千切り
+        - 味噌汁（わかめ、豆腐）
+        - ご飯
+      family_reaction:
+        overall: 好評
+        notes: 子供たちもよく食べた
+        
+  - date: 2025-11-23
+    day_of_week: 土曜日
+    dinner:
+      main: カレーライス
+      side:
+        - サラダ
+      family_reaction:
+        overall: とても好評
+        notes: 定番で安定の人気
+        
+  - date: 2025-11-22
+    day_of_week: 金曜日
+    dinner:
+      main: 鮭のムニエル
+      side:
+        - 野菜炒め
+        - 味噌汁（大根、油揚げ）
+        - ご飯
+      family_reaction:
+        overall: 普通
+        notes: 父がもう少しボリュームが欲しいと言っていた
+        
+  - date: 2025-11-21
+    day_of_week: 木曜日
+    dinner:
+      main: 鶏の唐揚げ
+      side:
+        - ポテトサラダ
+        - 味噌汁（ほうれん草、卵）
+        - ご飯
+      family_reaction:
+        overall: 好評
+        notes: 子供たちが大喜び
+        
+  - date: 2025-11-20
+    day_of_week: 水曜日
+    dinner:
+      main: 麻婆豆腐
+      side:
+        - 中華風春雨サラダ
+        - 卵スープ
+        - ご飯
+      family_reaction:
+        overall: まあまあ
+        notes: 長女には少し辛かった
+        
+  - date: 2025-11-19
+    day_of_week: 火曜日
+    dinner:
+      main: ハンバーグ
+      side:
+        - マッシュポテト
+        - コンソメスープ
+        - ご飯
+      family_reaction:
+        overall: とても好評
+        notes: 子供たちの大好物
+        
+  - date: 2025-11-18
+    day_of_week: 月曜日
+    dinner:
+      main: 鯖の味噌煮
+      side:
+        - ほうれん草のお浸し
+        - 味噌汁（なめこ、豆腐）
+        - ご飯
+      family_reaction:
+        overall: 普通
+        notes: 母は好評、子供たちは魚より肉が良かったとのこと
+
+weekly_summary:
+  week: 2025-11-18 to 2025-11-24
+  cuisine_variety:
+    - 和食: 4回
+    - 洋食: 2回
+    - 中華: 1回
+  protein_variety:
+    - 豚肉: 1回
+    - 鶏肉: 1回
+    - 魚: 2回
+    - ひき肉: 1回
+    - 豆腐: 1回
+  notes:
+    - 今週は和食が多め
+    - 次週は子供の好きな洋食を増やしたい
+    - 野菜の摂取量はまずまず

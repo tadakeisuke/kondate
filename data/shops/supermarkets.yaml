@@ -1,0 +1,85 @@
+# 利用するスーパー情報
+
+shops:
+  - id: shop-a
+    name: スーパーA（最寄り）
+    distance: 徒歩5分
+    open_hours:
+      weekday: "9:00-21:00"
+      weekend: "9:00-21:00"
+    characteristics:
+      - 近い
+      - 品揃え普通
+      - 価格は標準的
+    good_deals:
+      - day: 火曜日
+        items: 野菜
+        discount: 10%引き
+      - day: 金曜日
+        items: 魚
+        discount: 特売
+    typical_prices:
+      鶏もも肉: 98円/100g
+      豚バラ肉: 128円/100g
+      牛肉: 298円/100g
+      卵: 198円/パック
+      牛乳: 188円/L
+      にんじん: 88円/袋
+      
+  - id: shop-b
+    name: ディスカウントスーパーB
+    distance: 自転車10分
+    open_hours:
+      weekday: "10:00-20:00"
+      weekend: "10:00-20:00"
+    characteristics:
+      - 価格が安い
+      - 品揃えは限定的
+      - まとめ買い向き
+    good_deals:
+      - day: 月曜日
+        items: 肉類全般
+        discount: 15-20%引き
+      - day: 水曜日
+        items: 冷凍食品
+        discount: 20%引き
+    typical_prices:
+      鶏もも肉: 78円/100g
+      豚バラ肉: 98円/100g
+      牛肉: 248円/100g
+      卵: 168円/パック
+      牛乳: 158円/L
+      にんじん: 68円/袋
+      
+  - id: shop-c
+    name: 高級スーパーC
+    distance: 車で15分
+    open_hours:
+      weekday: "10:00-22:00"
+      weekend: "10:00-22:00"
+    characteristics:
+      - 品質が良い
+      - 輸入食材が豊富
+      - 価格は高め
+    good_deals:
+      - day: 日曜日
+        items: パン・デリカ
+        discount: 夕方以降半額
+    typical_prices:
+      鶏もも肉: 148円/100g
+      豚バラ肉: 178円/100g
+      牛肉: 498円/100g
+      卵: 298円/パック
+      牛乳: 248円/L
+      にんじん: 128円/袋
+    notes: 特別な日や品質重視の時に利用
+
+shopping_strategy:
+  regular:
+    - 平日: スーパーA（最寄り）で日常品
+    - 月曜: スーパーBで肉をまとめ買い
+    - 火曜: スーパーAで野菜特売
+  tips:
+    - 冷凍できる肉類は安い日にまとめ買い
+    - 野菜は特売日に購入
+    - 日用品はディスカウント店で

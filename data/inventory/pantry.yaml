@@ -1,0 +1,60 @@
+# パントリー・常温保存食品
+# 最終更新: 2025-11-25
+
+grains:
+  - name: 米
+    quantity: 5
+    unit: kg
+    status: 充分
+    
+  - name: パスタ
+    quantity: 400
+    unit: g
+    status: 充分
+    
+  - name: そうめん
+    quantity: 200
+    unit: g
+    status: 少ない
+
+canned_foods:
+  - name: トマト缶
+    quantity: 2
+    unit: 缶
+    expiry_date: 2026-08-15
+    
+  - name: ツナ缶
+    quantity: 3
+    unit: 缶
+    expiry_date: 2026-06-20
+
+seasonings:
+  - name: 砂糖
+    quantity: 1
+    unit: kg
+    status: 充分
+    
+  - name: 塩
+    quantity: 500
+    unit: g
+    status: 充分
+    
+  - name: サラダ油
+    quantity: 800
+    unit: ml
+    status: 充分
+    
+  - name: ごま油
+    quantity: 150
+    unit: ml
+    status: 少ない
+    
+  - name: みりん
+    quantity: 500
+    unit: ml
+    status: 充分
+    
+  - name: 料理酒
+    quantity: 600
+    unit: ml
+    status: 充分
